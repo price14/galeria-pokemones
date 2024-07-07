@@ -1,0 +1,21 @@
+.gallery {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 80px;
+}
+
+.pokemon {
+  border: 1px solid #ccc;
+  padding: 0px;
+  text-align: center;
+}
+
+.pokemon img {
+  max-width: 250px;
+  height: 250px;
+}
+
+h1{
+  text-align: center;
+}
